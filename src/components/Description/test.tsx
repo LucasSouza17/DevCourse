@@ -14,7 +14,7 @@ describe('<Description />', () => {
     renderWithTheme(<Description description="Lucas Souza" />)
 
     expect(screen.getByText(/lucas souza/i)).toHaveStyle({
-      'font-size': '1.4rem'
+      'font-size': '1.6rem'
     })
   })
 

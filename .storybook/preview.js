@@ -4,7 +4,7 @@ import theme from 'styles/theme'
 
 export const parameters = {
   backgrounds: {
-    default: 'dev-light',
+    default: 'dev-dark',
     values: [
       {
         name: 'dev-light',
