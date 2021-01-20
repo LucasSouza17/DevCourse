@@ -16,10 +16,10 @@ export type SectionHeroProps = {
 const SectionHero = ({
   title,
   description,
-  logoUrl = '/img/logo.svg',
-  alternativeTextLogo = 'DevCourse',
-  heroUrl = '/img/hero.svg',
-  alternativeTextHero = 'Computer Illustration'
+  logoUrl,
+  alternativeTextLogo,
+  heroUrl,
+  alternativeTextHero
 }: SectionHeroProps) => {
   return (
     <S.Wrapper>

@@ -38,6 +38,8 @@ describe('<SectionHero />', () => {
     expect(
       screen.getByRole('img', { name: /Computer Illustration/i })
     ).toHaveAttribute('src', '/img/hero.svg')
+
+    expect(screen.getByAltText(/Computer Illustration/i)).toBeInTheDocument()
   })
 
   it('should render the logo image', () => {
@@ -56,5 +58,7 @@ describe('<SectionHero />', () => {
       'src',
       '/img/logo.svg'
     )
+
+    expect(screen.getByAltText(/devcourse/i)).toBeInTheDocument()
   })
 })

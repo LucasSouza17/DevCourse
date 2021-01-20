@@ -5,10 +5,7 @@ export type LogoProps = {
   url: string
 }
 
-const Logo = ({
-  alternativeText = 'DevCourse',
-  url = '/img/logo.svg'
-}: LogoProps) => {
+const Logo = ({ alternativeText, url }: LogoProps) => {
   return <S.Wrapper src={url} alt={alternativeText} />
 }
 
