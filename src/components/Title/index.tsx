@@ -4,10 +4,11 @@ export type LineColors = 'primary' | 'terciary'
 
 export type TitleProps = {
   children: React.ReactNode
-  color?: 'white' | 'black'
+  color?: 'white' | 'black' | 'primary'
   lineLeft?: boolean
   lineColor?: LineColors
   size?: 'small' | 'medium'
+  fontWeight?: 'bold' | 'regular'
 }
 
 const Title = ({
@@ -15,7 +16,8 @@ const Title = ({
   color = 'black',
   lineLeft = false,
   lineColor = 'primary',
-  size = 'medium'
+  size = 'medium',
+  fontWeight = 'bold'
 }: TitleProps) => {
   return (
     <S.Wrapper
@@ -23,6 +25,7 @@ const Title = ({
       color={color}
       lineLeft={lineLeft}
       lineColor={lineColor}
+      fontWeight={fontWeight}
     >
       {children}
     </S.Wrapper>
