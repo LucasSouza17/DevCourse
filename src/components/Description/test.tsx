@@ -38,7 +38,7 @@ describe('<Description />', () => {
     renderWithTheme(<Description color="black" description="Lucas Souza" />)
 
     expect(screen.getByText(/lucas souza/i)).toHaveStyle({
-      color: '#232323'
+      color: '#131313'
     })
   })
 })

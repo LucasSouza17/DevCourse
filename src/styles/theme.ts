@@ -28,7 +28,7 @@ export default {
     mainBg: 'linear-gradient(79.89deg, #5A8BB8 3.03%, #0F6EC7 93.86%);',
     lightBg: '#F2F2F2',
     white: '#FAFAFA',
-    black: '#232323',
+    black: '#131313',
     lightGray: '#B2B2B2',
     gray: '#A3A0A0'
   },

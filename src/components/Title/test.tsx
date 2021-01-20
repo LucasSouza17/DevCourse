@@ -9,7 +9,7 @@ describe('<Title />', () => {
     renderWithTheme(<Title>How it works?</Title>)
 
     expect(screen.getByRole('heading', { name: /how it works/i })).toHaveStyle({
-      color: '#232323'
+      color: '#131313'
     })
   })
 
@@ -33,7 +33,7 @@ describe('<Title />', () => {
     renderWithTheme(<Title lineLeft>How it works?</Title>)
 
     expect(screen.getByRole('heading', { name: /how it works/i })).toHaveStyle({
-      color: '#232323',
+      color: '#131313',
       'border-left': '0.5rem solid #0F6EC7'
     })
   })
