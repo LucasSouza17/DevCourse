@@ -22,29 +22,27 @@ const SectionAboutCourse = ({
   buttonText
 }: SectionAboutCourseProps) => {
   return (
-    <S.Wrapper>
-      <Container>
-        <Title lineLeft lineColor="primary">
-          {title}
-        </Title>
+    <Container>
+      <Title lineLeft lineColor="primary">
+        {title}
+      </Title>
 
-        <S.Container>
-          <Video urlVideo={urlVideo} />
+      <S.Container>
+        <Video urlVideo={urlVideo} />
 
-          <S.SpaceContainer>
-            <Title color="primary">{subtitle}</Title>
-          </S.SpaceContainer>
+        <S.SpaceContainer>
+          <Title color="primary">{subtitle}</Title>
+        </S.SpaceContainer>
 
-          <S.SpaceContainer>
-            <BuyCard
-              discountPrice={discountPrice}
-              price={price}
-              buttonText={buttonText}
-            />
-          </S.SpaceContainer>
-        </S.Container>
-      </Container>
-    </S.Wrapper>
+        <S.SpaceContainer>
+          <BuyCard
+            discountPrice={discountPrice}
+            price={price}
+            buttonText={buttonText}
+          />
+        </S.SpaceContainer>
+      </S.Container>
+    </Container>
   )
 }
 
