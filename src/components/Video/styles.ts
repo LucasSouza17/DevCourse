@@ -6,7 +6,7 @@ export const Wrapper = styled.iframe`
   border-radius: 0.5rem;
   max-width: 890px;
   max-height: 416px;
-  width: 80vw;
+  width: 93vw;
   height: 100vh;
 
   ${media.greaterThan('medium')`
