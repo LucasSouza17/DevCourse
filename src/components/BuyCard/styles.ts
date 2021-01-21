@@ -8,8 +8,8 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     background-color: ${theme.colors.primary};
-    max-width: 57.375rem;
-    max-height: 21.875rem;
+    max-width: 48rem;
+    max-height: 19rem;
     width: 90vw;
     height: 100vh;
     border-radius: ${theme.border.radius};
@@ -19,6 +19,8 @@ export const Wrapper = styled.div`
 
     ${media.greaterThan('medium')`
       width: 100vw;
+      max-width: 57.375rem;
+      max-height: 21.875rem;
     `}
   `}
 `
